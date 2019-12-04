@@ -6,8 +6,6 @@ metadata:
   namespace: lamanifest
   labels:
     app: hello
-  annotations:
-    fluxcd.io/automated: 'true'
 spec:
   selector:
     matchLabels:
@@ -19,4 +17,4 @@ spec:
     spec:
       containers:
       - name: hello
-        image: linuxacademycontent/gitops:hellov1.2.2
+        image: linuxacademycontent/gitops:hellov1.0
