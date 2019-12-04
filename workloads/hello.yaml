@@ -6,6 +6,8 @@ metadata:
   namespace: lamanifest
   labels:
     app: hello
+  annotations:
+    fluxcd.io/automated: 'true'
 spec:
   selector:
     matchLabels:
